@@ -30,6 +30,7 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Output information
+        run: echo "..."
         # run: echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
         
   deploy:
